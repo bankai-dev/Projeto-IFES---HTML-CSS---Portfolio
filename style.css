@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Open+Sans:wght@300;400;500;700&display=swap');
+
+body{margin: 0px;
+    background-color: #F5DEB3;
+}
+
+header{
+    background-image: linear-gradient(blue, black);
+}
+#nomez{
+color: white;
+font-family: "Open Sans";
+font-size: 50px;
+text-align: left;
+margin: 50px 0px 0px 0px;
+}
+
+h1{
+color: black;
+font-family: "Open Sans";
+font-size: 50px;
+text-align: left;
+margin: 50px 0px 0px 0px;
+}
+
+#subtitulo{
+color: white;
+font-family: monospace;
+font-size: 20px;
+text-align: left;
+margin: 0px 0px 50px 0px;
+}
+
+#selfiezinha{
+    border-style: none;
+    border-radius: 1500px;
+    padding: 10px;
+}
+
+#on{
+    color: white;
+    border: solid 0px;
+    background-color: black;
+}
+
+#on:hover{
+  color:black;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+    font-family:"Caveat";
+    font-size: 30px;
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+    border: solid 0px;
+    padding: 5px 70px;
+    border-radius: 10px;
+    border-spacing: 50px;
+}
+
+a:visited{
+    color: rgb(99, 99, 99);
+}
+
+a:hover{
+    color: rgb(224, 224, 224);
+    background-color: rgb(41, 41, 41);
+}
+
+a:active{
+    color: white;
+}
+
+#blc1{
+    border: solid 1px rgb(15, 15, 15);
+    border-radius: 20px;
+    background-color: rgb(15, 15, 15);
+    text-align: left;
+    padding-left: 30px;
+}
+
+#boasvindas{
+    color:white;
+    font: normal normal 25px "caveat";
+}
+
+#apresentaçao{
+    color: orange;
+    font: normal normal 35px monospace;
+}
+
+#profissao{
+    color:gray;
+    font: normal normal 40px "caveat";
+    margin: 0px 50px 0px 0px;
+}
+
+#blc02{
+    background-image: url (img/fotoo.png);
+    background-size:cover;
+    border-radius: 20px;
+}
+#contate{
+    border: solid 1px blue;
+    border-radius: 5px;
+    background-color: blue;
+    font: normal bolder 20px monospace;
+    padding: 5px 20px;
+    margin: 10px;
+}
+h3{
+    font: normal normal bolder 20px "Open Sans";
+    text-align: left;
+}
+tbody{
+    font: normal normal lighter 18px "Open Sans";
+    text-align: left;
+}
+#aa:link, #bb:link, #cc:link, #dd:link{
+    color: black;
+    font: normal normal bold 25px "Open Sans";
+    white-space: nowrap;
+}
+
+#aa:hover, #bb:hover, #cc:hover, #dd:hover{
+    color: blue;
+    background-color: rgb(234, 253, 253);
+}
+
+#aa:active, #bb:active, #cc:active, #dd:active{
+    color: rgb(0, 81, 134);
+    background-color: rgb(234, 253, 253);
+}
+#h1minibio{
+    color: black;
+    font-size: 50px;
+    margin: 0px 0px;
+}
+#biotxt{
+    font: normal normal normal 20px "Open Sans";
+    text-align: justify;
+}
+.titulo{
+    font: normal normal bold 25px "Open Sans";
+    text-align: left;
+}
+
+.prg-idi, .tempo{
+    color: black;
+    font: normal normal bold 18px "Open Sans";
+    white-space: nowrap;
+}
+.texto{
+    font: normal normal normal 18px "Open Sans";
+}
+progress{
+    width: 200px;
+    height: 40px;
+}
+
+#tituloprojeto{
+    font: normal normal bold 20px "Open Sans";
+}
+#txtprojeto{
+    font: normal normal normal 25px "Open Sans";
+}
+
+.projetos{
+    font: normal normal bold 25px "Open Sans";
+}
+
+#prj1, #prj2, #prj3{
+    font: normal normal normal 20px "Open Sans";
+}
+#slctAssunto{
+    font: normal normal normal 20px "Open Sans";
+    width: 50.5%;
+    border: solid 1px black;
+    border-radius: 4px;
+}
+
+#nome, #email, #tel{
+    font: normal normal normal 20px "Open Sans";
+    width: 50%;
+    border: solid 1px black;
+    border-radius: 4px;
+}
+
+#msg{
+    font: normal normal normal 20px "Open Sans";
+    width: 50%;
+    height: 160px;
+    border: solid 1px black;
+    border-radius: 4px;
+}
+#enviar{
+    background-color: var(--cinzaescuro);
+    color: var(--verdeclaro);
+    font: normal normal bold 20px "Open Sans";
+    padding: 10px 30px;
+    border: solid 1px black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#outroscntts{
+    color: black;
+    margin: 15px;
+    font: normal normal bold 30px "Open Sans";
+}
+
+ul, #myemail, #linkedin{
+    font: normal normal bold 18px "Open Sans";
+    list-style-type: none;
+    padding-left: 18px;
+}
+#myemail, #linkedin{
+    color: blue;
+    background-color: white;
+    text-align: left;
+    padding-left: 0px;
+    text-decoration: underline;
+}
+
+#myemail:hover, #linkedin:hover{
+    color: rgb(0, 0, 180);
+}
+
+#myemail:active, #linkedin:active{
+    color: black;
+}
+#ulcntts{
+    border-top: 2px groove rgb(255, 248, 248);
+}
+
+footer{
+    color: black;
+    font: normal normal normal 15px "Open Sans";
+    background-color: white;
+    padding: 5px;
+    border-top: 1px solid rgb(190, 190, 190);
+}
+
+
